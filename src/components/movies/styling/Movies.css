@@ -1,0 +1,35 @@
+.moviesListContainer {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(247, 246, 246);
+}
+
+.movieList {
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 60px;
+  border-radius: 76px;
+  background-color: rgb(140, 205, 248);
+  color: white;
+  border: white;
+  margin-bottom: 80px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(88, 179, 240);
+}/*# sourceMappingURL=Movies.css.map */
